@@ -1,0 +1,40 @@
+<body id="LoginForm"  class="vertical-layout vertical-content-menu 1-column   menu-expanded blank-page blank-page" data-open="click" data-menu="vertical-content-menu" data-col="1-column">
+<div class="app-content content">
+
+    <!-- Outer Row -->
+    <div class="content-wrapper">
+
+      <div class="col-xl-10 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block bg-login-image"></div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h4 class="h4 text-icon-900 mb-4" style="font-size: 40px"><span style="font-weight:100">C</span><b>Tracker</b><sup>&copy;</sup></span></h4>
+                    <?php
+                    hesk_handle_messages();
+                  ?>
+                  </div>
+               
+                    <a href="oauth.php" class="btn btn-secondary btn-user btn-block">I have an Enterprise email</a>                  
+
+                   <hr/>
+                    
+                    <a href="index_email.php" class="btn btn-dark btn-user btn-block">I do not have an Enterprise email</a>                  
+                                       
+                            
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </div>
